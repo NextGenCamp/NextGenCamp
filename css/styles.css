@@ -63,6 +63,7 @@ p.updates {
 }
 
 
+
 .header {
 	width: 100%;
 	text-align: center;
@@ -90,5 +91,23 @@ p.updates {
 	color: white;
 	padding: .75em;
 	font: 11px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#mc_embed_signup,
+.mailing-list {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.register,.register:visited {
+	padding: .5em 1em;
+	background-color: #f67af6;
+	color: white!important;
+	font-weight: bold;
+	width: 220px;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
 }
 
