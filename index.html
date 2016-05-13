@@ -3,6 +3,11 @@
 <head>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- place this in your head tag -->
+  <script src='https://js.tito.io/v1' async></script>
+  <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1' />
+
 </head>
 
 <body>
@@ -23,10 +28,23 @@
     <p class="name">Next Gen Camp</p>
     <p class="date">Sat Jul 9, 2016 @ UN</p>
     <p class="updates">A mission-driven free open source conference for young developers</p>
-    <p class="register"><a href="https://ti.to/NextGenCamp/2016/">Register Here</a></p>
+    <h4 class="updates strong">
+      <a href="http://goo.gl/forms/1GYjwesPh0">Propose your session here: http://goo.gl/forms/1GYjwesPh0</a>
+    </h4>
+
   </div>
 
-  <div id="updated">Last updated on Apr 8, 2016</div>
+  <div id="blocks">
+	  <div id="register" class="block">
+  		<h4 class="block-title">Tickets</h4>    
+      <tito-widget event="NextGenCamp/2016/"></tito-widget>
+    </div>
+  
+    <div id="newsletter">
+    </div>
+  </div>
+
+
 </body>
 
 </html>
